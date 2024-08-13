@@ -1,0 +1,255 @@
+
+/* Style for Top Navigation Bar */
+.top-nav {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top-nav .nav-link:hover {
+    color: #fff3e0;
+}
+
+.top-nav .search-bar input {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+.top-nav .search-bar button {
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.top-nav .flag {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+}
+
+/* Additional styles */
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Style for Main Header */
+header {
+    background: linear-gradient(45deg, #343a40, #495057);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .navbar {
+    margin-top: 10px;
+}
+
+header .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #adb5bd;
+}
+
+/* Main Content Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .card-body {
+    text-align: center;
+}
+
+.card .card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card .card-text {
+    color: #6c757d;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .top-nav .search-bar input {
+        width: 150px;
+    }
+}
+
+/* Style for Top Navigation Bar */
+.top-nav {
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-nav .nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.top-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.top-nav .nav-link:hover {
+    color: #fff3e0;
+}
+
+.top-nav .nav-item {
+    position: relative;
+}
+
+.top-nav .dropdown-menu {
+    position: absolute;
+    background-color: white;
+    border: none;
+}
+
+.top-nav .dropdown-menu .dropdown-item {
+    color: green;
+    padding: 10px 15px;
+}
+
+.top-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #ff3d2e;
+}
+
+/* Additional styles */
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Style for Main Header */
+header {
+    background: linear-gradient(45deg, #343a40, #495057);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .navbar {
+    margin-top: 10px;
+}
+
+header .navbar-nav .nav-link {
+    color:green;
+    font-weight: bold;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #adb5bd;
+}
+
+/* Main Content Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .card-body {
+    text-align: center;
+}
+
+.card .card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card .card-text {
+    color: #6c757d;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .top-nav .search-bar input {
+        width: 150px;
+    }
+}
